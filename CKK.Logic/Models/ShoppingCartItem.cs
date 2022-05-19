@@ -8,8 +8,8 @@ namespace CKK.Logic.Models
 {
     class ShoppingCartItem
     {
-        private string _product;
-        private int _quantity;
+        public string _product;
+        public int _quantity;
 
         public ShoppingCartItem(string product, int quantity)
         {
