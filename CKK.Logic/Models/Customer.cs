@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace CKK.Logic.Models
 {
 
-    class Customer
+    public class Customer
     {
         public int _id;
         public string _name;

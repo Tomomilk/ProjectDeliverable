@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CKK.Logic.Models
 {
-    class Product
+    public class Product
     {
         public int _id;
         public decimal _price;
