@@ -30,16 +30,24 @@ namespace CKK.Logic.Models
             _id = id;
         }
 
-        public string Name
+        public string GetName()
         {
-            get { return _name; }
-            set { _name = Name;  }
+            return _name;
         }
 
-        public string Address
+        public void SetName(string customerName)
         {
-            get { return _address; }
-            set { _address = Address; }
+            _name = customerName;
+        }
+
+        public string GetAddress()
+        {
+            return _address; 
+        }
+
+        public void SetAddress(string customerAddress)
+        {
+            _address = customerAddress;
         }
 
 

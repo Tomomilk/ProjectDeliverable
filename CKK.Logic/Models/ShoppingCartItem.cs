@@ -28,11 +28,14 @@ namespace CKK.Logic.Models
             _quantity = quantity;
         }
 
-        public string Product
+        public string GetProduct()
         {
-            get { return _product; }
-            set { _product = Product; }
+            return _product;
         }
 
+        public void SetProduct(string cartProduct)
+        {
+            _product = cartProduct;
+        }
     }
 }

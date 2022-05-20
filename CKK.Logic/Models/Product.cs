@@ -39,10 +39,14 @@ namespace CKK.Logic.Models
             _price = price;
         }
 
-        public string Name
+        public string GetName()
         {
-            get { return _name; }
-            set { _name = Name; }
+            return _name;
+        }
+
+        public void SetName(string productName)
+        {
+            _name = productName;
         }
 
     }
