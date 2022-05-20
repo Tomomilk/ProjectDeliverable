@@ -15,7 +15,7 @@ namespace CKK.Logic.Models
 
         public Product() { }
 
-        public Product(string name, decimal price, int id)
+        public Product(decimal price, int id, string name)
         {
             _id = id;
             _price = price;
