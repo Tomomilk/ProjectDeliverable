@@ -13,6 +13,9 @@ namespace CKK.Logic.Models
         public string _name;
         public string _address;
 
+
+        public Customer() { }
+
         public Customer(int id, string name, string address)
         {
             _id = id;
