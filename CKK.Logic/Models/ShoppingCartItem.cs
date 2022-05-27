@@ -40,5 +40,10 @@ namespace CKK.Logic.Models
         {
             _product = cartProduct;
         }
+
+        public decimal GetTotal()
+        {
+            return (_quantity * _product._price);
+        }
     }
 }
