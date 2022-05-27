@@ -57,7 +57,51 @@ namespace CKK.Logic.Models
 
         public void RemoveStoreItem(int productNum)
         {
-            
+            if(productNum == 1)
+            {
+                if(_product1 != null)
+                {
+                    _product1 = null;
+                }
+
+                else
+                {
+                    
+                }
+            }
+
+            else if (productNum == 2)
+            {
+                if(_product2 != null)
+                {
+                    _product2 = null;
+                }
+
+                else
+                {
+                    
+                }
+            }
+
+            else if (productNum == 3)
+            {
+                if(_product3 != null)
+                {
+                    _product3 = null;
+                }
+
+                else
+                {
+                    
+                }
+            }
+
+            else
+            {
+                
+            }
+
+
         }
 
         public Product GetStoreItem(int productNum)
