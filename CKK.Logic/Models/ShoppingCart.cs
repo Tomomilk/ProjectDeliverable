@@ -74,6 +74,17 @@ namespace CKK.Logic.Models
 
         }
 
+        public ShoppingCartItem Addproduct(Product prod, int quantity)
+        {
+            if( quantity > 0)
+            {
+                if( prod != null)
+                {
+                    
+                }
+            }
+        }
+
 
     }
 }
