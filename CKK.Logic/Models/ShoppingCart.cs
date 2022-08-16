@@ -68,7 +68,7 @@ namespace CKK.Logic.Models
             }
         }
 
-        public void AddProduct(Product prod)
+        public ShoppingCartItem AddProduct(Product prod)
         {
             
 
