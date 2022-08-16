@@ -81,7 +81,10 @@ namespace CKK.Logic.Models
             {
                 if( prod != null)
                 {
-                    
+                    if( _product1 == null)
+                    {
+
+                    }
                 }
             }
         }
