@@ -68,7 +68,27 @@ namespace CKK.Logic.Models
             }
         }
 
-        
+        public ShoppingCartItem AddProduct(Product prod)
+        {
+
+            return Addproduct(prod, 1);
+
+        }
+
+        public ShoppingCartItem Addproduct(Product prod, int quantity)
+        {
+            if (quantity > 0)
+            {
+                if (prod != null)
+                {
+                    if (_product1 == null)
+                    {
+                        return _product1;
+                    }
+
+                }
+            }
+        }
 
 
     }
