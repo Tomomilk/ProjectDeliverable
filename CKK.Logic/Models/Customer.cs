@@ -14,15 +14,6 @@ namespace CKK.Logic.Models
         public string _address;
 
 
-        public Customer() { }
-
-        public Customer(int id, string name, string address)
-        {
-            _id = id;
-            _name = name;
-            _address = address;
-        }
-
         public int GetId()
         {
             return _id;
@@ -38,9 +29,9 @@ namespace CKK.Logic.Models
             return _name;
         }
 
-        public void SetName(string customerName)
+        public void SetName(string name)
         {
-            _name = customerName;
+            _name = name;
         }
 
         public string GetAddress()
@@ -48,9 +39,9 @@ namespace CKK.Logic.Models
             return _address; 
         }
 
-        public void SetAddress(string customerAddress)
+        public void SetAddress(string address)
         {
-            _address = customerAddress;
+            _address = address;
         }
 
 
