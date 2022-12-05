@@ -36,9 +36,9 @@ namespace CKK.Logic.Models
             return _product;
         }
 
-        public void SetProduct(Product cartProduct)
+        public void SetProduct(Product product)
         {
-            _product = cartProduct;
+            _product = product;
         }
 
         public decimal GetTotal()
